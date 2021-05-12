@@ -1,0 +1,583 @@
+*{
+	font-family: 'Ubuntu' , 'Arial';
+	box-sizing: border-box;
+	
+	
+}
+
+body{
+	background: linear-gradient(to right,#000000FF,#303030FF ) ;
+}
+
+.black{
+	color: #000000;
+}
+
+
+.container {
+	width: 100%;
+	height: 780px;
+	max-width: 3000px;
+	min-width: 400px;
+	background:linear-gradient(to right,#5A98FA,#FFFFFFFF,#5A98FA ) ;
+    border: solid 0px  #FFFFFFFF;
+	 margin: auto;
+	 margin-bottom: px;
+	 margin-top: px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-data{
+    	background: linear-gradient(to bottom,#000000FF,#303030FF);
+   	  font-size: 25px;
+    	padding: 8PX;
+   	  display: flex;
+    	flex-direction: row;
+    	flex-wrap: wrap;
+   	  justify-content: flex-start;
+    	align-items: center;
+     color: #FFFFFFFF
+   	
+}
+
+.imgen-usuario{
+ 	  background:linear-gradient(to bottom,#FFFFFFFF,#9B9B9BFF ) ;
+ 	  border-radius:60%;
+  	border: solid 1px #FFFFFFFF;
+  	display: inline-block;
+  	width: 35px;
+    
+  	margin-right: 10px;
+ }
+
+.user-data p{
+	display: inline-block;	
+}
+.point-cotainer{
+	 
+	background: #404040FF;
+	height: 24px; 
+    width: 400px;
+    border-radius: 150px;
+    border: solid 0 #7C7C7CFF;
+    margin:10px;
+}
+.css-shapes-preview{ 
+    
+    height: 24px; 
+    width: 50%; 
+    background: linear-gradient(to bottom,#428BCA,#0162FDFF ); 
+    border-radius: 150px; 
+ 
+}
+
+.level_container{ 
+    margin: auto;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    height: 98%; 
+    width: 96%; 
+    background:linear-gradient(to right,#5A98FA,#FFFFFFFF,#5A98FA ) ; 
+     border-radius: 10px;
+    
+ 
+}
+.level{
+	margin: auto;
+    margin-top: 2px;
+    height: 100%; 
+    width: 100%; 
+    overflow: hidden;
+    border-radius: 10px;
+    background:linear-gradient(to right,#5A98FA,#FFFFFFFF,#5A98FA ) ; 
+}
+
+.level_mission{
+  margin: auto;
+    height: 100%; 
+    width: 100%; 
+    background-color: #ffff;
+     border-radius: 10px;
+   border:solid 0px #000;
+
+}
+
+
+/**Slider**/
+
+
+
+.level_container .level{
+  z-index: 1000;
+  position: relative;
+}
+.level_container  .level .level_mission {
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+  overflow-x: hidden;
+  left: 100%;
+}
+
+
+
+/**mission1**/
+#contenedorPiezas{
+  border: 0px solid #000;
+  width: 95%;
+  height: 230px;
+  display: flex;
+  margin: auto;
+  background: radial-gradient(#0077FFBD,#0ECCE6E7);
+  justify-content: center;
+  margin-bottom: 10px: 
+}
+#contenedorPiezas .pieza{
+  display: inline-block;
+  overflow: hidden;
+  border: 1px solid #404040FF;
+  border-radius: 8px;
+  padding: 1px;
+  margin:1.5%;
+  width: 240px;
+  height:  180px ;
+  
+}
+
+
+
+#puzzle{
+  border: 0px solid #000;
+  width: 95%;
+  height: 230px;
+  display: flex;
+  margin: auto;
+  margin-left: 25px;
+  margin-top: 20px;
+  justify-content: center;
+  background: radial-gradient(#00FF21E0,#00FF8AD2)
+}
+#puzzle .contenedorPieza{
+  display: flex;
+  display: inline-block;
+  overflow:hidden;
+  border: 2.6px dashed #404040FF;
+  border-radius: 8px;
+  padding: auto;
+  margin:1.5%;
+  width: 250px;
+  height:  190px ;
+  text-align: justify;
+  justify-content: center;
+  background: linear-gradient(to top,#FFC900FF,#DBEB13FF );
+
+
+}
+
+#puzzle .contenedorPieza img{
+  width: 90%;
+  height: 170px;
+}
+#pieza1, #pieza2, #pieza3, #pieza4{
+  border: 1px solid #000;
+  text-align: justify;
+  border-radius: 8px;
+  background:#ffff;
+
+}
+
+.respuesta{
+  
+}
+.Boton1 a {
+   background: linear-gradient(to bottom,#00FF21E0,#00FF8AD2 );
+  text-decoration: none;
+  padding: 20px 20px;
+  border: 0px solid #404040FF;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+
+.Boton1{
+ display: flex;
+ padding: 25px;
+  justify-content: center;
+  margin-bottom: 50px;
+  border: 0px solid #000000;
+}
+
+.Boton1 a:hover {
+   background: linear-gradient(to top,#00FF21E0,#00FF8AD2 );
+   color: #ffffff;
+}
+
+.titulo_level{
+  padding: 10px 20px;
+  margin: auto;
+  font-size: 29px;
+}
+.datos{
+   padding: 15px 15px;
+  margin: auto;
+  
+}
+
+.Game_Over{
+  background: linear-gradient(to bottom,#FF0010FF,#D90000FF );
+  text-decoration: none;
+  padding: 12px 12px;
+  margin-top: 45px ; 
+  border: 1px solid #D90000FF;
+  font-size: 20px;
+  border-radius: 12px;
+  color: #ffffff
+}
+
+/**mision1 final**/
+
+#level-1{
+  background:linear-gradient(to right,#D8D8D8FF,#FFFFFFFF,#D8D8D8FF);
+}
+#level-2{
+  background:linear-gradient(to left,#D8D8D8FF,#FFFFFFFF,#D8D8D8FF );
+}
+#level-3{
+  background:linear-gradient(to right,#D8D8D8FF,#FFFFFFFF,#D8D8D8FF);
+}
+#level-4{
+  background:linear-gradient(to left,#D8D8D8FF,#FFFFFFFF,#D8D8D8FF );
+}
+#level-5{
+  background:linear-gradient(to right,#D8D8D8FF,#FFFFFFFF,#D8D8D8FF);
+}
+#level-6{
+    background:linear-gradient(to left,#D8D8D8FF,#FFFFFFFF,#D8D8D8FF );
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+  
+  }
+#level-6 div{
+  margin: auto;
+  position: absolute;
+  left: 20%;
+}
+  #level-6 img{
+    width: 20%;
+    float: left;
+    display: inline-block;
+  }
+  #level-6 h2{
+    font-size: 4rem;
+    display: inline-block;
+  }
+   #level-6 h3{
+    font-size: 2rem;
+    display: inline-block;
+  }
+
+
+
+/**mision2**/
+.Acertijos{
+  width: 98%;
+  margin: auto;
+  border: 0px solid #000;
+  height: 74%;
+  display:  flex;
+  justify-content: center;
+  flex-flow: row wrap;  
+}
+.text_container{
+  margin: auto;
+  height: 98%;
+  width:  45%;
+  
+ 
+  display: inline-block;
+  padding: 6px;
+  border-radius: 8px;
+  overflow-x: hidden;
+  text-align: justify;
+
+
+}
+#text_container-1{
+   border:   4px dashed #1A8E00FF ;
+   background: linear-gradient(to bottom,#00FF21E0,#00FF8AD2 );
+}
+
+#text_container-1 img {
+  width: 25%;
+}
+#text_container-2 img {
+  width: 68%;
+}
+
+#text_container-2{
+   border:   4px dashed #FF8700FF ;
+   background: linear-gradient(to top,#FFC900FF,#DBEB13FF );
+}
+
+.text_container img{
+  float: left;
+   margin-top: 5px;
+  margin-right: 5px;
+
+}
+.contenido{
+  text-align:   justify;
+  padding:  10px;
+  margin: 10px 10px;
+  font-size: 19px;
+}
+
+.Anweser{
+  background: linear-gradient(to left,#FFFFFFFF,#A0A0A0FF );
+  border-radius: 6px;
+  border: 2px inset #A0A0A0FF;
+}
+
+.Anweser:focus {
+  outline: none;
+  background: linear-gradient(to right,#FFFFFFFF,#A0A0A0FF );
+  border-radius: 6px;
+  border: 2px outset #A0A0A0FF;
+  transition: all 0.5s linear 0.5s;
+}
+.pistas_boton{
+   background: linear-gradient(to bottom,#0035FFFF,#006DFFFF );
+  text-decoration: none;
+  margin-left: 20px;
+  padding: 10px 10px;
+  border: 1px outset #006DFFFF;
+  font-size: 15px;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.pistas_boton : hover {
+   background: linear-gradient(to top,#0035FFFF,#006DFFFF );
+  text-decoration: none;
+  padding: 10px 10px;
+  border: 1px inset #006DFFFF;
+  font-size: 20px;
+  color: #ffffff;
+  border-radius: 10px;
+}
+.REspuesta-container{
+  margin-top: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:center;
+ 
+}
+
+
+::-webkit-scrollbar {
+   width: 5px;
+    
+}
+::-webkit-scrollbar-track {
+   width: 5px;
+    border-radius: 10px;
+    background: linear-gradient(to right,#D8D8D8FF,#FFFFFFFF,#D8D8D8FF)
+
+}
+::-webkit-scrollbar-thumb {
+   width: 5px;
+    border-radius: 10px;
+    background: #808080FF;
+}
+
+/**mision2 final/
+
+/**mision3**/
+.mision{
+  margin: auto;
+  width: 95%;
+  border-radius: 15px;
+  display: flex;
+  flex-flow: column wrap;
+  margin: auto;
+  justify-content: space-between;
+  border: 0px dotted #F12;
+}
+
+.truefalse{
+  width: 91%;
+  border-radius: 15px;
+  padding: 4px 4px;
+  margin-top: 5px;
+  margin-left: 15px;
+  border: 4px dotted #000;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.truefalse .text-container{
+    width: 85%;
+    text-align: justify;
+    align-self: center; 
+    padding: 4px 6px;
+
+}
+
+.truefalse .select-container{
+    width: 8%;
+    text-align: justify;
+    align-self: center;
+ }
+
+#Help1, #Help2, #Help3, #Help4, #Help5{
+    width: 15px;
+    height: 15px; 
+    margin-left: 5px;
+   background: linear-gradient(to bottom,#428BCA,#0162FDFF );
+    border-radius: 50%; 
+   align-self: center;
+ }
+ .select-container select {
+    padding:  3px 3px;
+    border-radius: 10px;
+    margin:  6px 5px;
+    border-style: none;
+ }
+
+.select-container select:focus{ 
+   outline: none;
+   padding:  3px 3px;
+    border-radius: 8px;
+    margin:  4px 5px;
+    border-style: none;
+}
+.select-container option{
+  border-radius: 10px;
+  border-style: none;
+ }
+
+ #text-container-1{
+  border-color: ;
+  background:linear-gradient(to top,#FFC900FF,#DBEB13FF ) ;
+  font-weight: 500;
+ }
+ #text-container-2{
+  border-color: ;
+  background: linear-gradient(to bottom,#00FF21E0, #00FF8AD2);
+  font-weight: 500;
+ }
+ #text-container-3{
+  border-color: ;
+  background: linear-gradient(to top,#A8A2FFFF,#35A2FFFF );
+  font-weight: 500;
+ }
+ #text-container-4{
+  border-color: ;
+  background:linear-gradient(to bottom,#FFC900FF,#00FF8AD2) ;
+  font-weight: 500;
+ }
+
+ #text-container-5{
+  border-color: ;
+  background: linear-gradient(to top,#0DEBF1FF,#6D33F7E7);
+  font-weight: 500;
+ }
+ /**mision3 final**/
+
+ /**mision4**/
+
+.contenedor{
+  width: 100%;
+  margin: auto;
+  padding: .43rem;
+  box-sizing: border-box;
+  border: 0px dotted black  ;
+  position: relative;
+
+}
+.celda{
+display: inline-block;
+margin: .25%;
+color: #FFFFFFFF;
+box-sizing: border-box;
+  font-size: 20px;
+width: 49%;
+overflow: scroll;
+overflow-x: hidden;
+height: 40vh;
+border: 3px inset #18A3E6FF; 
+background: linear-gradient(to left,#075BF7FF,#030CC8FF);
+ padding: 1.5rem;
+
+}
+.botonlogo{
+  width: 8.5%;
+  position:absolute;
+  border:3px outset #07E7F7FF;
+
+  margin:auto;
+  left:0 ;
+  bottom:0 ;
+  top:0;
+  right:0; 
+  border-radius: 50%;
+}
+.botonlogo:hover {
+  width: 8.5%;
+  position:absolute;
+  border:5px outset #303030FF;
+
+  margin:auto;
+  left:0 ;
+  bottom:0 ;
+  top:0;
+  right:0; 
+  border-radius: 50%;
+}
+
+legend {
+  color: white;
+  background: linear-gradient(to left,black,#303030FF); 
+  padding: 5px 10px;
+  border-radius: 0;
+  border: 0;
+  
+}
+
+fieldset{
+  border: 3px inset;
+  background: linear-gradient(to right,#075BF7FF,#030CC8FF);
+
+}
+
+.radio-button {
+  
+ appearance: none;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+
+  border: 3px solid #ffff;
+  transition: 0.2s all linear;
+  margin-right: 5px;
+ 
+}
+.radio-button:checked {
+  border: 6px solid #FF4B00FF;
+  border-radius: 50%;
+}
+#particles-js {
+  height: 100vh; 
+  width: 100%;
+    position: fixed;
+    z-index: -1; 
+  }
+
