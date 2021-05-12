@@ -159,7 +159,6 @@ box-shadow: inset 0px 0px 32px 6px rgba(0,0,0,0.75);
 .retorno:focus {
  	background: #7F0000FF;
  	border: 3px solid #808080FF;
-  -webkit-box-shadow: inset 0px 0px 32px 6px rgba(0,0,0,0.75);
--moz-box-shadow: inset 0px 0px 32px 6px rgba(0,0,0,0.75);
-box-shadow: inset 0px 0px 32px 6px rgba(0,0,0,0.7.retorno
+box-shadow: inset 0px 0px 32px 6px rgba(0,0,0,0.75);
+
 }

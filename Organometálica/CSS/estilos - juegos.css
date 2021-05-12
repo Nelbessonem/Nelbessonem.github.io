@@ -132,7 +132,7 @@ body{
   margin: auto;
   background: radial-gradient(#0077FFBD,#0ECCE6E7);
   justify-content: center;
-  margin-bottom: 10px: 
+  margin-bottom: 10px;
 }
 #contenedorPiezas .pieza{
   display: inline-block;
@@ -188,9 +188,7 @@ body{
 
 }
 
-.respuesta{
-  
-}
+
 .Boton1 a {
    background: linear-gradient(to bottom,#00FF21E0,#00FF8AD2 );
   text-decoration: none;
