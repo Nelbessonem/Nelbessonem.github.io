@@ -147,7 +147,7 @@ function malaRespuesta() {
 		Swal.fire({
 			title: 'Game Over',
 
-			html: '<p class="black"> Vueleve a intentarlo </p> <br><a href="../index.Html" class="Game_Over"> Voler</a>',
+			html: '<p class="black"> Vueleve a intentarlo </p> <br><a href="../index.html" class="Game_Over"> Voler</a>',
 			icon: 'error',
 			showConfirmButton: false,
 			width: '95%',
