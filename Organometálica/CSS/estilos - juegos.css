@@ -20,26 +20,26 @@ body{
 	max-width: 3000px;
 	min-width: 400px;
 	background:linear-gradient(to right,#5A98FA,#FFFFFFFF,#5A98FA ) ;
-    border: solid 0px  #FFFFFFFF;
-	 margin: auto;
-	 margin-bottom: px;
-	 margin-top: px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
+  border: solid 0px  #FFFFFFFF;
+	margin: auto;
+	margin-bottom: px;
+	margin-top: px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .user-data{
-    	background: linear-gradient(to bottom,#000000FF,#303030FF);
-   	  font-size: 25px;
-    	padding: 8PX;
-   	  display: flex;
-    	flex-direction: row;
-    	flex-wrap: wrap;
-   	  justify-content: flex-start;
-    	align-items: center;
-     color: #FFFFFFFF
-   	
+  background: linear-gradient(to bottom,#000000FF,#303030FF);
+  font-size: 25px;
+  padding: 8PX;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  color: #FFFFFFFF
+  
 }
 
 .imgen-usuario{
@@ -132,7 +132,7 @@ body{
   margin: auto;
   background: radial-gradient(#0077FFBD,#0ECCE6E7);
   justify-content: center;
-  margin-bottom: 10px: 
+  margin-bottom: 10px;
 }
 #contenedorPiezas .pieza{
   display: inline-block;
@@ -188,9 +188,6 @@ body{
 
 }
 
-.respuesta{
-  
-}
 .Boton1 a {
    background: linear-gradient(to bottom,#00FF21E0,#00FF8AD2 );
   text-decoration: none;
@@ -321,13 +318,13 @@ body{
 }
 
 #text_container-2{
-   border:   4px dashed #FF8700FF ;
-   background: linear-gradient(to top,#FFC900FF,#DBEB13FF );
+  border:   4px dashed #FF8700FF ;
+  background: linear-gradient(to top,#FFC900FF,#DBEB13FF );
 }
 
 .text_container img{
   float: left;
-   margin-top: 5px;
+  margin-top: 5px;
   margin-right: 5px;
 
 }
@@ -352,7 +349,7 @@ body{
   transition: all 0.5s linear 0.5s;
 }
 .pistas_boton{
-   background: linear-gradient(to bottom,#0035FFFF,#006DFFFF );
+  background: linear-gradient(to bottom,#0035FFFF,#006DFFFF );
   text-decoration: none;
   margin-left: 20px;
   padding: 10px 10px;
@@ -362,7 +359,7 @@ body{
   border-radius: 10px;
 }
 
-.pistas_boton : hover {
+.pistas_boton::hover {
    background: linear-gradient(to top,#0035FFFF,#006DFFFF );
   text-decoration: none;
   padding: 10px 10px;
@@ -465,28 +462,28 @@ body{
  }
 
  #text-container-1{
-  border-color: ;
+  
   background:linear-gradient(to top,#FFC900FF,#DBEB13FF ) ;
   font-weight: 500;
  }
  #text-container-2{
-  border-color: ;
+  
   background: linear-gradient(to bottom,#00FF21E0, #00FF8AD2);
   font-weight: 500;
  }
  #text-container-3{
-  border-color: ;
+  
   background: linear-gradient(to top,#A8A2FFFF,#35A2FFFF );
   font-weight: 500;
  }
  #text-container-4{
-  border-color: ;
+  
   background:linear-gradient(to bottom,#FFC900FF,#00FF8AD2) ;
   font-weight: 500;
  }
 
  #text-container-5{
-  border-color: ;
+  
   background: linear-gradient(to top,#0DEBF1FF,#6D33F7E7);
   font-weight: 500;
  }

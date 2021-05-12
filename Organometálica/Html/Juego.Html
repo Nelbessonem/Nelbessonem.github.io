@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/ed3b624349.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../CSS/normalize.css" />
+    <link rel="shortcut icon" class="favicon" href="../IMG/logo2.png" />
+    <link rel="stylesheet" type="text/css" href="../CSS/estilos.css" />
+
+    <title>Química-Inorganica</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="user-data">
+            <div class="imgen-usuario">
+                <img id="imagen" src="../IMG/man.svg" />
+            </div>
+            <p class="player" id="player">Jugador</p>
+            <div class="point-cotainer" id="point-cotainer">
+                <div class="css-shapes-preview" id="life_bar"></div>
+            </div>
+            <p class="life" id="life"></p>
+            <p>/</p>
+            <p>100</p>
+        </div>
+    </div>
+    <div class="level_container">
+        <div class="level_mission active" id="level-1">
+            <div id="contenedorPiezas" ondragenter="return enter(event)" ondragover="return over(event)"
+                ondrop="return drop(event)">
+                <img src="../IMG/carbonilo-metalico.png" class="pieza" id="pieza3" draggable="true"
+                    ondragstart="start(event)" ondragend="end(event)" />
+                <img src="../IMG/fosfina.png" class="pieza" id="pieza2" draggable="true" ondragstart="start(event)"
+                    ondragend="end(event)" />
+                <img src="../IMG/sandicw compuesto.png" class="pieza" id="pieza4" draggable="true"
+                    ondragstart="start(event)" ondragend="end(event)" />
+                <img src="../IMG/carbeno-nivel1.png" class="pieza" id="pieza1" draggable="true"
+                    ondragstart="start(event)" ondragend="end(event)" placehoder="1" />
+            </div>
+            <br /><br /><br />
+
+            <div id="puzzle">
+                <div class="contenedorPieza" id="uno" ondragenter="return enter(event)" ondragover="return over(event)"
+                    ondrop="return drop(event)">
+                    <p class="respuesta">Carbenos metálicos</p>
+                </div>
+                <div class="contenedorPieza" id="dos" ondragenter="return enter(event)" ondragover="return over(event)"
+                    ondrop="return drop(event)">
+                    <p class="respuesta">Fosfinas metálicos</p>
+                </div>
+                <div class="contenedorPieza" id="tres" ondragenter="return enter(event)" ondragover="return over(event)"
+                    ondrop="return drop(event)">
+                    <p class="respuesta">Carbonilos metálicos</p>
+                </div>
+                <div class="contenedorPieza" id="cuatro" ondragenter="return enter(event)"
+                    ondragover="return over(event)" ondrop="return drop(event)">
+                    <p class="respuesta">Compuestos tipo sandwich</p>
+                </div>
+            </div>
+            <div class="Boton1" href="#">
+                <a href="#" id="Boton1"><i class="far fa-check-circle"></i> Verificar</a>
+            </div>
+        </div>
+        <div class="level_mission" id="level-2">
+            <h2 class="titulo_level">Nivel 2 : Decifra las frases</h2>
+            <div class="Acertijos">
+                <div class="text_container" id="text_container-1">
+                    <article class="contenido">
+                        <img src="../IMG/Carbeno.png" />
+                        Son compuestos que poseen un átomo de carbono neutro divalente el
+                        cual tiene seis electrones sobre su capa de valencia. Debido a su
+                        naturaleza deficiente de electrones la mayoría son altamente
+                        reactivos y su vida media es generalmente muy corta, por lo que se
+                        consideran intermedios reactivos. Tienen un átomo de carbono
+                        doblemente coordinado por lo que se podría esperar que ellos
+                        tuvieran una estructura lineal (tal como un alquino) con un átomo
+                        de carbono con hibridación sp. Sin embargo muy pocos son lineales
+                        y poseen ángulos de enlace entre 100° y 150° sugiriendo un estado
+                        de hibridación trigonal (sp2).
+                    </article>
+                    <br />
+                    <br />
+
+                    <div class="REspuesta-container" id="REspuestas1">
+                        <input class="Anweser" type="text" placeholder="Escribr tu respuesta" id="Respuesta1"
+                            value="" />
+                        <a href="#" class="pistas_boton" id="PistaA">Pistas</a>
+                    </div>
+                    <div class="text_container" id="text_container-2">
+                        <article class="contenido">
+                            <img src="../IMG/Carbonilo.png" />
+                            Son complejos de coordinación de metales de transición con
+                            ligandos de monóxido de carbono en estado de baja oxidación. En
+                            esto, los ligandos de CO actúan como ligandos neutros, son
+                            útiles en síntesis orgánica y como catalizadores o precursores
+                            de catalizadores en catalizadores homogéneos.En general, estos
+                            compuestos obedecen a la "regla de los 18 electrones". El
+                            ligando monóxido de carbono puede estar unido terminalmente a un
+                            solo átomo de metal o en puente con dos o más átomos de metal.
+                        </article>
+                        <br />
+                        <div class="REspuesta-container" id="REspuestas2">
+                            <input class="Anweser" type="text" placeholder="Escribr tu respuesta" id="Respuesta2"
+                                value="" />
+                            <a href="#" class="pistas_boton" id="PistaB">Pistas</a>
+                        </div>
+                    </div>
+                    <div class="Boton1" href="#">
+                        <a href="#" id="Boton2"><i class="far fa-check-circle"></i> Verificar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="level_mission" id="level-3">
+            <h2 class="titulo_level">Nivel 3 : Verdadero o Falso</h2>
+            <div class="mision">
+                <br />
+                <div class="truefalse" id="text-container-1">
+                    <div class="text-container">
+                        <article class="question">
+                            La Química Organometálica, en general, comprende los aductos
+                            formados por metales de transición en bajos estados de
+                            oxidación, con ligandos orgánicos dadores σ y aceptores π (
+                            ácidos π).
+                        </article>
+                    </div>
+                    <div class="select-container">
+                        <select name="	" id="Respuesta-1">
+                            <option value="#"></option>
+                            <option value="Verdadero">Verdadero</option>
+                            <option value="Falso">Falso</option>
+                        </select>
+                    </div>
+                    <div class="Tramp-container" id="Help1"></div>
+                </div>
+                <br />
+                <div class="truefalse" id="text-container-2">
+                    <div class="text-container">
+                        <article class="question">
+                            Una característica de los átomos metálicos enlazados a ligandos
+                            orgánicos,especialmente CO, es que ellos no presentan la
+                            capacidad de formar enlaces covalentes con otros átomos
+                            metálicos
+                        </article>
+                    </div>
+                    <div class="select-container">
+                        <select name="	" id="Respuesta-2">
+                            <option value="#"></option>
+                            <option value="Verdadero">Verdadero</option>
+                            <option value="Falso">Falso</option>
+                        </select>
+                    </div>
+                    <div class="Tramp-container" id="Help2"></div>
+                </div>
+                <br />
+                <div class="truefalse" id="text-container-3">
+                    <div class="text-container">
+                        <article class="question">
+                            grupos α tipo +M / -M: Son carbenos enlazados a dos grupos con
+                            efectos electrónicos opuestos. Su geometría puede ser casi
+                            lineal y se encuentran estabilizados simultáneamente por una
+                            fuerte donación desde el orbital p de los sustituyentes (+M)
+                            hacia el orbital p vacío del metileno y por una débil donación
+                            desde el orbital p lleno del metileno hacia los orbitales p
+                            vacíos de los sustituyentes (-M).
+                        </article>
+                    </div>
+                    <div class="select-container">
+                        <select name="	" id="Respuesta-3">
+                            <option value="#"></option>
+                            <option value="Verdadero">Verdadero</option>
+                            <option value="Falso">Falso</option>
+                        </select>
+                    </div>
+                    <div class="Tramp-container" id="Help3"></div>
+                </div>
+                <br />
+                <div class="truefalse" id="text-container-4">
+                    <div class="text-container">
+                        <article class="question">
+                            Ligandos dadores-σ dadores-π : Son ligandos poco
+                            electronegativos, bases blandas, con gran densidad electrónica
+                            alrededor del núcleo. Se caracterizan por estabilizar
+                            principalmente metales de transición en altos estados de
+                            oxidación.
+                        </article>
+                    </div>
+                    <div class="select-container">
+                        <select name="	" id="Respuesta-4">
+                            <option value="#"></option>
+                            <option value="Verdadero">Verdadero</option>
+                            <option value="Falso">Falso</option>
+                        </select>
+                    </div>
+                    <div class="Tramp-container" id="Help4"></div>
+                </div>
+                <div class="truefalse" id="text-container-5">
+                    <div class="text-container">
+                        <article class="question">
+                            Los enlaces del monóxido de carbono CO a los metales de
+                            transición son sinérgicos. La unión tiene tres componentes,
+                            dando lugar a un triple enlace parcial. Se genera un enlace
+                            sigma por la superposición del par de electrones no enlazantes
+                            del orbital sp-híbrido del átomo de carbono del carbonilo con
+                            uno de los orbitales p vacíos del metal.
+                        </article>
+                    </div>
+                    <div class="select-container">
+                        <select name="	" id="Respuesta-5">
+                            <option value="#"></option>
+                            <option value="Verdadero">Verdadero</option>
+                            <option value="Falso">Falso</option>
+                        </select>
+                    </div>
+                    <div class="Tramp-container" id="Help5"></div>
+                </div>
+                <div class="Boton1" href="#">
+                    <a href="#" id="Boton3"><i class="far fa-check-circle"></i> Verificar</a>
+                </div>
+            </div>
+        </div>
+        <div class="level_mission" id="level-4">
+            <h2 class="titulo_level">
+                Selecciona la opción correcta (usa el boton del centro al finalizar)
+            </h2>
+            <div class="contenedor">
+                <div class="celda">
+                    <br />Es una reacción química que forma un enlace a un metal. Esta
+                    reacción generalmente se refiere al reemplazo de un átomo de
+                    halógeno en una molécula orgánica por un átomo de metal, lo que da
+                    como resultado un compuesto organometálico.<br />
+                    <fieldset id="1">
+                        <legend>Selecciona tu respuesta</legend>
+                        <div>
+                            <input type="radio" id="contactChoice1" name="contact" value="email" class="radio-button" />
+                            <label for="contactChoice1">Migración</label><br />
+
+                            <input type="radio" id="contactChoice2" name="contact" value="phone" class="radio-button" />
+                            <label for="contactChoice2">Metalación</label><br />
+
+                            <input type="radio" id="contactChoice3" name="contact" value="mail" class="radio-button" />
+                            <label for="contactChoice3">Oxidación</label><br />
+
+                            <input type="radio" id="contactChoice4" name="contact" value="mail" class="radio-button" />
+                            <label for="contactChoice4">Reducción</label>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="celda">
+                    Los complejos de_________(buen aceptor s y pobre retrodonador p)
+                    exhiben las siguientes características: (1) el átomo de carbono del
+                    carbeno es electrofílicos; (2) el metal se encuentra en un relativo
+                    bajo estado de oxidación; y (3) el metal se encuentra típicamente
+                    hacia el lado derecho del bloque de transición (grupos 6 a 8).<br />
+                    <fieldset id="2">
+                        <legend>Selecciona tu respuesta</legend>
+                        <div>
+                            <input type="radio" id="contactChoice5" name="Pregunta2" value="email"
+                                class="radio-button" />
+                            <label for="contactChoice1">Carbonilos</label><br />
+
+                            <input type="radio" id="contactChoice6" name="Pregunta2" value="phone"
+                                class="radio-button" />
+                            <label for="contactChoice2">Carbeno tipo Schrock</label><br />
+
+                            <input type="radio" id="contactChoice7" name="Pregunta2" value="mail"
+                                class="radio-button" />
+                            <label for="contactChoice3">Fosfinas</label><br />
+
+                            <input type="radio" id="contactChoice8" name="Pregunta2" value="mail"
+                                class="radio-button" />
+                            <label for="contactChoice4">Carbeno tipo Fischer</label>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="celda">
+                    Los complejos de __________(buen aceptor s y buen retrodonador p)
+                    presentan las siguientes características: (1) el átomo de carbono
+                    del carbeno es nucleofílico; (2) el metal se encuentra ubicado hacia
+                    el lado izquierdo del bloque de transición (Ta, Zr, Ti, etc.) y en
+                    un relativo alto estado de oxidación; (3) se caracterizan por tener
+                    un enlace C=M fuerte y (4) tienen ligandos dadores tales como grupos
+                    alquilo o ciclopentadienilo.
+                    <br />
+                    <fieldset id="3">
+                        <legend>Selecciona tu respuesta</legend>
+                        <div>
+                            <input type="radio" id="contactChoice9" name="Pregunta4" value="email"
+                                class="radio-button" />
+                            <label for="contactChoice1">Carbeno tipo Schrock</label><br />
+
+                            <input type="radio" id="contactChoice10" name="Pregunta4" value="phone"
+                                class="radio-button" />
+                            <label for="contactChoice2">Fosfinas</label><br />
+
+                            <input type="radio" id="contactChoice11" name="Pregunta4" value="mail"
+                                class="radio-button" />
+                            <label for="contactChoice3">Carbeno tipo Fischer</label><br />
+
+                            <input type="radio" id="contactChoice12" name="Pregunta4" value="mail"
+                                class="radio-button" />
+                            <label for="contactChoice4">Carbonilo metálicos</label>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="celda">
+                    Es la que se encarga del estudio de los compuestos organometálicos,
+                    que son aquellos compuestos químicos que poseen un enlace entre un
+                    átomo de carbono y un átomo metálico, de su síntesis y de su
+                    reactividad.
+                    <br />
+                    <fieldset id="4">
+                        <legend>Selecciona tu respuesta</legend>
+                        <div>
+                            <input type="radio" id="contactChoice13" name="Pregunta5" value="email"
+                                class="radio-button" />
+                            <label for="contactChoice1">Química Ambiental</label><br />
+
+                            <input type="radio" id="contactChoice14" name="Pregunta5" value="phone"
+                                class="radio-button" />
+                            <label for="contactChoice2">Química inorgánica</label><br />
+
+                            <input type="radio" id="contactChoice15" name="Pregunta5" value="mail"
+                                class="radio-button" />
+                            <label for="contactChoice3">Química orgánometálica</label><br />
+
+                            <input type="radio" id="contactChoice16" name="Pregunta5" value="mail"
+                                class="radio-button" />
+                            <label for="contactChoice4">Química Organica</label>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+            <a href="#" class="" id="Boton4"><img src="../IMG/logo2.png" alt="haz click" title="haz click"
+                    class="botonlogo" /></a>
+        </div>
+        <div class="level_mission" id="level-5">
+            <h2 class="titulo_level">Ordena las siguentes fosfinas</h2>
+            <div id="contenedorPiezas" ondragenter="return enter(event)" ondragover="return over(event)"
+                ondrop="return drop(event)">
+                <img src="../IMG/7.png" class="pieza" id="pieza5" draggable="true" ondragstart="start(event)"
+                    ondragend="end(event)" />
+                <img src="../IMG/2.png" class="pieza" id="pieza6" draggable="true" ondragstart="start(event)"
+                    ondragend="end(event)" />
+                <img src="../IMG/5.png" class="pieza" id="pieza7" draggable="true" ondragstart="start(event)"
+                    ondragend="end(event)" />
+                <img src="../IMG/1.png" class="pieza" id="pieza8" draggable="true" ondragstart="start(event)"
+                    ondragend="end(event)" placehoder="1" />
+                <img src="../IMG/6.png" class="pieza" id="pieza9" draggable="true" ondragstart="start(event)"
+                    ondragend="end(event)" placehoder="1" />
+                <img src="../IMG/3.png" class="pieza" id="pieza10" draggable="true" ondragstart="start(event)"
+                    ondragend="end(event)" placehoder="1" />
+                <img src="../IMG/4.png" class="pieza" id="pieza11" draggable="true" ondragstart="start(event)"
+                    ondragend="end(event)" placehoder="1" />
+            </div>
+            <br />
+            <h2 class="titulo_level">Incremento en la acidez π</h2>
+            <div id="puzzle">
+                <div class="contenedorPieza" id="cinco" ondragenter="return enter(event)"
+                    ondragover="return over(event)" ondrop="return drop(event)">
+                    <p class="respuesta"></p>
+                </div>
+                <div class="contenedorPieza" id="seis" ondragenter="return enter(event)" ondragover="return over(event)"
+                    ondrop="return drop(event)">
+                    <p class="respuesta"></p>
+                </div>
+                <div class="contenedorPieza" id="siete" ondragenter="return enter(event)"
+                    ondragover="return over(event)" ondrop="return drop(event)">
+                    <p class="respuesta"></p>
+                </div>
+                <div class="contenedorPieza" id="ocho" ondragenter="return enter(event)" ondragover="return over(event)"
+                    ondrop="return drop(event)">
+                    <p class="respuesta"></p>
+                    <div class="contenedorPieza" id="nueve" ondragenter="return enter(event)"
+                        ondragover="return over(event)" ondrop="return drop(event)">
+                        <p class="respuesta"></p>
+                    </div>
+                    <div class="contenedorPieza" id="diez" ondragenter="return enter(event)"
+                        ondragover="return over(event)" ondrop="return drop(event)">
+                        <p class="respuesta"></p>
+                    </div>
+                    <div class="contenedorPieza" id="once" ondragenter="return enter(event)"
+                        ondragover="return over(event)" ondrop="return drop(event)">
+                        <p class="respuesta"></p>
+                    </div>
+                </div>
+                <div class="Boton1" href="#">
+                    <a href="#" id="Boton5"><i class="far fa-check-circle"></i> Verificar</a>
+                </div>
+            </div>
+        </div>
+        <div class="level_mission" id="level-6">
+            <div>
+                <img src="../IMG/logo2.png" alt="" />
+                <h2>
+                    <i>Felicitaciones has <br />
+                        completado el juego</i>
+                </h2>
+                <h3>
+                    <span><a href="../Index.Html">Esperoque fuera de tu agrado</a></span>
+                </h3>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script type="text/javascript" src="../JS/jquery-3.0.0.min.js"></script>
+    <script type="text/javascript" src="../JS/Juego-data.js"></script>
+</body>
+
+</html>
