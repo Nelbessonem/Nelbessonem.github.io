@@ -1,0 +1,26 @@
+<svg width="446" height="419" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_13" stroke="null">
+   <ellipse fill="url(#svg_3)" cx="223" cy="210.5" id="svg_9" rx="215.5" ry="201.00001" stroke-opacity="0" stroke="#ff0000"/>
+   <g id="svg_5" stroke="null">
+    <text transform="matrix(3.15695 0 0 1.82663 -947.014 -293.596)" fill="#eadada" stroke-width="0" x="311.8459" y="308.09" id="svg_1" font-size="143" font-family="'Montserrat Thin'" text-anchor="start" xml:space="preserve" font-weight="normal" font-style="normal" stroke-dasharray="5,2,2,2,2,2" stroke="#000000">λ</text>
+    <text transform="matrix(3.15695 0 0 1.82663 -947.014 -293.596)" fill="#eadada" stroke-width="0" x="356.8459" y="310.09" id="svg_2" font-size="143" font-family="'Montserrat Thin'" text-anchor="start" xml:space="preserve" font-weight="normal" font-style="normal" stroke-dasharray="5,2,2,2,2,2" stroke="#000000">β</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <linearGradient id="svg_3" x1="0" y1="0" x2="1" y2="0">
+   <stop stop-color="#6dd604" stop-opacity="0.99609" offset="0"/>
+   <stop offset="0.60547" stop-opacity="0.99609" stop-color="#00bf5f"/>
+   <stop offset="1" stop-opacity="0.99609" stop-color="#41c141"/>
+   <stop stop-color="#003f7f" stop-opacity="0.99219" offset="1"/>
+   <stop stop-color="#0fc656" stop-opacity="0.99609" offset="1.02734"/>
+   <stop stop-color="0" stop-opacity="0" offset="NaN"/>
+   <stop stop-color="0" stop-opacity="0" offset="NaN"/>
+   <stop stop-color="0" stop-opacity="0" offset="NaN"/>
+   <stop stop-color="0" stop-opacity="0" offset="NaN"/>
+   <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+  </linearGradient>
+ </defs>
+</svg>
