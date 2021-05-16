@@ -10,7 +10,35 @@ body{
     font-family: 'Roboto';
 }
 .container{
+    width: 85%;
+    margin: auto;
     display: flex;
     justify-content:center;
+    align-items: center;
+    border: 2px solid ;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+.container .wellcome h1{
+    font-size: 3rem;
+    color: rgb(46, 75, 236);
+    font-weight: bold;
+
+}
+.container .wellcome p{
+    font-size: 1.5rem;
+    color: rgb(46, 75, 236);
+    font-weight: bold;
+
+}
+.container img{
+    width: 280px;
+}
+.celda{
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
