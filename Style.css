@@ -8,29 +8,42 @@ body{
     background-image: url('Img/circuit-board.svg');
     font-size: 16px;
     font-family: 'Roboto';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#particles-js{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
 }
 .container{
-    width: 85%;
-    margin: auto;
+    width: 65%;
+    height: 100vh;
     display: flex;
+    background:linear-gradient(to left, rgba(96, 109, 119, 0.493), rgba(94, 108, 125, 0.493) );
+    border-radius: 15%;
     justify-content:center;
     align-items: center;
-    border: 2px solid ;
+    flex-direction: column;
+    border: 0px solid  #0f0f0f;
+    padding: 20px;
+    
     position: relative;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
+    z-index: 99;
+    
+    
 }
 .container .wellcome h1{
     font-size: 3rem;
-    color: rgb(46, 75, 236);
+    color: rgb(2, 12, 70);
     font-weight: bold;
 
 }
 .container .wellcome p{
     font-size: 1.5rem;
-    color: rgb(46, 75, 236);
+    color: rgb(9, 21, 88);
     font-weight: bold;
 
 }
@@ -41,4 +54,24 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.celda a{
+    text-decoration: none;
+    padding: 15px;
+    color: cornsilk;
+    border: 1px solid rgb(37, 37, 253) ;
+    background:rgb(37, 37, 253) ;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 460px){
+    body{
+        font-size: 10px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .celda{
+        margin: 10px;
+    }
 }
