@@ -1,92 +1,114 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background: linear-gradient(to left,rgb(235, 231, 231), #F1f1f1);
-    background-image: url('Img/circuit-board.svg');
-    font-size: 16px;
-    font-family: 'Roboto';
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+  background: linear-gradient(to left, rgb(235, 231, 231), #f1f1f1);
+  background-image: url("Img/circuit-board.svg");
+  font-size: 16px;
+  font-family: "Roboto";
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#particles-js{
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    z-index: -1;
+#particles-js {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
 }
-.container{
-    width: 65%;
-    height: 100vh;
-    display: flex;
-    background:linear-gradient(to left, rgba(96, 109, 119, 0.493), rgba(94, 108, 125, 0.493) );
-    border-radius: 15%;
-    justify-content:center;
-    align-items: center;
+.container {
+  width: 65%;
+  height: 100vh;
+  display: flex;
+  background: linear-gradient(
+    to left,
+    rgba(96, 109, 119, 0.493),
+    rgba(94, 108, 125, 0.493)
+  );
+  border-radius: 15%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 0px solid #0f0f0f;
+  padding: 20px;
+
+  position: relative;
+  z-index: 99;
+}
+.container .wellcome h1 {
+  font-size: 3rem;
+  color: rgb(2, 12, 70);
+  font-weight: bold;
+}
+.container .wellcome p {
+  font-size: 1.5rem;
+  color: rgb(9, 21, 88);
+  font-weight: bold;
+}
+.container img {
+  width: 280px;
+}
+.celda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.celda a {
+  text-decoration: none;
+  padding: 15px;
+  color: cornsilk;
+  border: 1px solid rgb(37, 37, 253);
+  background: rgb(37, 37, 253);
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    font-size: 10px;
+  }
+  .container {
     flex-direction: column;
-    border: 0px solid  #0f0f0f;
-    padding: 20px;
-    
-    position: relative;
-    z-index: 99;
-    
-    
-}
-.container .wellcome h1{
-    font-size: 3rem;
+  }
+  .celda {
+    margin: 10px;
+  }
+  .container img {
+    width: 80%;
+  }
+  .container .wellcome h1 {
+    font-size: 1.9rem;
     color: rgb(2, 12, 70);
     font-weight: bold;
-
-}
-.container .wellcome p{
-    font-size: 1.5rem;
+  }
+  .container .wellcome p {
+    font-size: 1.3rem;
     color: rgb(9, 21, 88);
     font-weight: bold;
-
+  }
 }
-.container img{
-    width: 280px;
-}
-.celda{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.celda a{
-    text-decoration: none;
-    padding: 15px;
-    color: cornsilk;
-    border: 1px solid rgb(37, 37, 253) ;
-    background:rgb(37, 37, 253) ;
-    border-radius: 10px;
-}
-
-@media only screen and (max-width: 500px){
-    body{
+@media only screen and (min-width: 501px) and (max-width:690px){
+    body {
         font-size: 10px;
-    }
-    .container{
+      }
+      .container {
         flex-direction: column;
-    }
-    .celda{
+      }
+      .celda {
         margin: 10px;
-    }
-    .container img{
+      }
+      .container img {
         width: 80%;
-    }
-    .container .wellcome h1{
+      }
+      .container .wellcome h1 {
         font-size: 1.9rem;
         color: rgb(2, 12, 70);
         font-weight: bold;
-    
-    }
-    .container .wellcome p{
+      }
+      .container .wellcome p {
         font-size: 1.3rem;
         color: rgb(9, 21, 88);
         font-weight: bold;
-    
-    }
+      }
 }
