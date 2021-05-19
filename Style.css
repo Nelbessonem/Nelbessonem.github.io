@@ -64,7 +64,7 @@ body{
     border-radius: 10px;
 }
 
-@media only screen and (max-width: 460px){
+@media only screen and (max-width: 500px){
     body{
         font-size: 10px;
     }
@@ -73,5 +73,20 @@ body{
     }
     .celda{
         margin: 10px;
+    }
+    .container img{
+        width: 80%;
+    }
+    .container .wellcome h1{
+        font-size: 1.9rem;
+        color: rgb(2, 12, 70);
+        font-weight: bold;
+    
+    }
+    .container .wellcome p{
+        font-size: 1.3rem;
+        color: rgb(9, 21, 88);
+        font-weight: bold;
+    
     }
 }
